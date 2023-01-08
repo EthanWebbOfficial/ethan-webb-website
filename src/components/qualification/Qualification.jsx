@@ -148,10 +148,10 @@ const Qualification = () => {
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2022 - Present
                 </div>
-                <span className="qualification__button-learn">
+                <a href='/peakgradscheme' className="qualification__button-learn">
                 Learn More
                 <i className="uil uil-arrow-right qualification__button-learn-icon"></i>
-                </span>
+                </a>
               </div>
 
               <div>

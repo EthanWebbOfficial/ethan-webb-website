@@ -11,8 +11,9 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-const App = () => {
+const MainPage = () => {
   return (
     <>
     <Header />
@@ -31,6 +32,88 @@ const App = () => {
     <Footer />
     <ScrollUp />
     </>
+  );
+};
+
+const AboutPage = () => {
+  return (
+    <>
+    <Header />
+
+    About Page.
+
+    <Footer />
+    <ScrollUp />
+    </>
+  );
+};
+
+const PeakGradScheme = () => {
+  return (
+    <>
+    <Header />
+
+    Peak Grad Scheme Page.
+
+    <Footer />
+    <ScrollUp />
+    </>
+  );
+};
+
+const OnlineCourses = () => {
+  return (
+    <>
+    <Header />
+
+    OnlineCourses
+
+    <Footer />
+    <ScrollUp />
+    </>
+  );
+};
+
+const Mentors = () => {
+  return (
+    <>
+    <Header />
+
+    Mentors
+
+    <Footer />
+    <ScrollUp />
+    </>
+  );
+};
+
+const ReadingBooks = () => {
+  return (
+    <>
+    <Header />
+
+    ReadingBooks
+
+    <Footer />
+    <ScrollUp />
+    </>
+  );
+};
+
+const App = () => {
+  return (
+    <div className='App'>
+    <Router>
+      <Routes>
+          <Route exact path='/' element={<MainPage />} />
+          <Route path='/about' element={<AboutPage />} />
+          <Route path='/peakgradscheme' element={<PeakGradScheme />} />
+          <Route path='/onlinecourses' element={<OnlineCourses  />} />
+          <Route path='/mentors' element={<Mentors />} />
+          <Route path='/readingbooks' element={<ReadingBooks />} />
+      </Routes>
+    </Router>
+    </ div>
   )
 }
 

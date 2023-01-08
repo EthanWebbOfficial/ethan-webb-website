@@ -57,10 +57,13 @@ const Data = () => {
         </svg>
       </h1>
       <h3 className="home__subtitle">Data Scientist</h3>
+
       <p className="home__description">
         I am a graduate data scientist, with a passion for using statistical analysis and data science
-        to make a positive change in the world.
-      </p>
+        to make a positive change in the world. <br/> <br/>
+
+        I was recently made redundant from my Grad Scheme and I am <b>open to opportunities.</b>
+      </p> 
 
       <a download="" href={CV} className="button button--flex">
         Download CV

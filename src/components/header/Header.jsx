@@ -25,10 +25,10 @@ const Header = () => {
           <ul className="nav__list grid">
             <li className="nav__item">
               <a
-                href="#home"
-                onClick={() => setActiveNav("#home")}
+                href="/#home"
+                onClick={() => setActiveNav("/#home")}
                 className={
-                  activeNav === "#home" ? "nav__link active-link" : "nav__link"
+                  activeNav === "/#home" ? "nav__link active-link" : "nav__link"
                 }
               >
                 <i className="uil uil-estate nav__icon"></i> Home
@@ -37,10 +37,10 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#about"
-                onClick={() => setActiveNav("#about")}
+                href="/#about"
+                onClick={() => setActiveNav("/#about")}
                 className={
-                  activeNav === "#about" ? "nav__link active-link" : "nav__link"
+                  activeNav === "/#about" ? "nav__link active-link" : "nav__link"
                 }
               >
                 <i className="uil uil-user nav__icon"></i> About
@@ -49,10 +49,10 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#skills"
-                onClick={() => setActiveNav("#skills")}
+                href="/#skills"
+                onClick={() => setActiveNav("/#skills")}
                 className={
-                  activeNav === "#skills"
+                  activeNav === "/#skills"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -63,10 +63,10 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#experience"
-                onClick={() => setActiveNav("#experience")}
+                href="/#experience"
+                onClick={() => setActiveNav("/#experience")}
                 className={
-                  activeNav === "#experience"
+                  activeNav === "/#experience"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -77,10 +77,10 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#portfolio"
-                onClick={() => setActiveNav("#portfolio")}
+                href="/#portfolio"
+                onClick={() => setActiveNav("/#portfolio")}
                 className={
-                  activeNav === "#portfolio"
+                  activeNav === "/#portfolio"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -91,10 +91,10 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#services"
-                onClick={() => setActiveNav("#services")}
+                href="/#services"
+                onClick={() => setActiveNav("/#services")}
                 className={
-                  activeNav === "#services"
+                  activeNav === "/#services"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -105,10 +105,10 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#testimonials"
-                onClick={() => setActiveNav("#testimonials")}
+                href="/#testimonials"
+                onClick={() => setActiveNav("/#testimonials")}
                 className={
-                  activeNav === "#testimonials"
+                  activeNav === "/#testimonials"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -119,10 +119,10 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="#contact"
-                onClick={() => setActiveNav("#contact")}
+                href="/#contact"
+                onClick={() => setActiveNav("/#contact")}
                 className={
-                  activeNav === "#contact"
+                  activeNav === "/#contact"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
