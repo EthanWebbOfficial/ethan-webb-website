@@ -36,7 +36,7 @@ const Testimonials = () => {
         }}
         modules={[Pagination]}
       >
-        {Data.map(({ id, image, title, linkedin_url, role, description }) => {
+        {Data.map(({ id, image, title, date, letter_rec, linkedin_url, role, description }) => {
           return (
             <SwiperSlide className="testimonial__card" key={id}>
               <img src={image} alt="" className="testimonial__img" />
@@ -53,7 +53,16 @@ const Testimonials = () => {
               </span>
 
               <h3 className="testimonial__role">{role}</h3>
+
+              <div className="testimonial__calender">
+                  <i className="uil uil-calendar-alt"></i> {date}
+              </div>
+
               <p className="testimonial__description">{description}</p>
+              <a download={letter_rec} className="testimonial__button">
+              Download Full Reference
+              <i className="uil uil-arrow-right testimonial__button-icon"></i>
+          </a>
             </SwiperSlide>
           );
         })}

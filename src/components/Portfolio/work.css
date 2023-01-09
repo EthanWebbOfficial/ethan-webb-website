@@ -49,6 +49,17 @@
   margin-bottom: var(--mb-0-5);
 }
 
+.work__tag{
+  margin-bottom: var(--mb-1);
+  background-color: var(--title-color);
+  color: var(--container-color);
+  padding: 0.25rem 0.75rem;
+  font-weight: var(--font-normal);
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  width: fit-content;
+}
+
 .work__subtitle {
   width: 295px;
   display: flex;

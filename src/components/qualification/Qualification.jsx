@@ -50,15 +50,15 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">GCSEs</h3>
+                <h3 className="qualification__title">Statistics MSc</h3>
                 <span className="qualification__subtitle">
-                  Christopher Whitehead Language College
+                Lancaster University
                 </span>
                 <span className="qualification__outcome">
-                  6 A*s, 4As, 1B
+                Distinction (Including In Dissertation)
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2011 - 2016
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
 
@@ -76,6 +76,21 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
 
+              <div>
+                <h3 className="qualification__title">Mathematics BSc</h3>
+                <span className="qualification__subtitle">
+                Lancaster University
+                </span>
+                <span className="qualification__outcome">
+                First Class
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calendar-alt"></i> 2018 - 2021
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">A Levels</h3>
                 <span className="qualification__subtitle">
@@ -88,21 +103,6 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt"></i> 2016 - 2018
                 </div>
               </div>
-            </div>
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Mathematics BSc</h3>
-                <span className="qualification__subtitle">
-                  Lancaster University
-                </span>
-                <span className="qualification__outcome">
-                  First Class
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2018 - 2021
-                </div>
-              </div>
 
               <div>
                 <span className="qualification__rounder"></span>
@@ -118,15 +118,15 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Statistics MSc</h3>
+                <h3 className="qualification__title">GCSEs</h3>
                 <span className="qualification__subtitle">
-                  Lancaster University
+                  Christopher Whitehead Language College
                 </span>
                 <span className="qualification__outcome">
-                  Distinction (Including In Dissertation)
+                  6 A*s, 4As, 1B
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2011 - 2016
                 </div>
               </div>
             </div>
