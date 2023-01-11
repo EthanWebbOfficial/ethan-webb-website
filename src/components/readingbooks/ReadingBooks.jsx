@@ -9,7 +9,11 @@ const ReadingBooks = () => {
       <>
       <Header />
   
-      ReadingBooks
+      <section className="readingbooks section">
+            <h2 className="section__title">Reading Books</h2>
+            <span className="section__subtitle">What's on my book-shelf?</span>
+
+      </section>
   
       <Footer />
       <ScrollUp />

@@ -60,9 +60,9 @@ const Data = () => {
 
       <p className="home__description">
         I am a graduate data scientist, with a passion for using statistical analysis and data science
-        to make a positive change in the world. <br/> <br/>
+        to make a <mark className="highlight"><b>positive change in the world.</b></mark> <br/> <br/>
 
-        I was recently made redundant from my Graduate Scheme at an AI company and I am <b>open to opportunities.</b>
+        I was recently made redundant from my Graduate Scheme at an AI company and I am <mark className="highlight"><b>open to opportunities.</b></mark>
       </p> 
 
       <a download="" href={CV} className="button button--flex">

@@ -9,7 +9,11 @@ const Mentors = () => {
       <>
       <Header />
   
-      Mentors
+      <section className="mentors section">
+            <h2 className="section__title">Experienced Mentors</h2>
+            <span className="section__subtitle">An introduction to my experienced mentors</span>
+
+      </section>
   
       <Footer />
       <ScrollUp />
