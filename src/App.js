@@ -1,104 +1,15 @@
 import React from 'react';
 import "./App.css";
 import Header from './components/header/Header';
-import Home from './components/home/Home';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
-import Services from './components/services/Services';
-import Qualification from './components/qualification/Qualification';
-import Work from './components/Portfolio/Work';
-import Testimonials from './components/testimonials/Testimonials';
-import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ScrollUp from './components/scrollup/ScrollUp';
+import MainPage from './components/mainpage/mainpage';
+import AboutPage from './components/aboutpage/AboutPage';
+import PeakGradScheme from './components/gradschemepage/GradSchemePage';
+import OnlineCourses from './components/onlinecourses/OnlineCourses';
+import Mentors from './components/mentors/Mentors';
+import ReadingBooks from './components/readingbooks/ReadingBooks';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-
-const MainPage = () => {
-  return (
-    <>
-    <Header />
-
-    <main className='main'>
-      <Home />
-      <About />
-      <Skills />
-      <Qualification />
-      <Work />
-      <Services />
-      <Testimonials />
-      <Contact />
-    </main>
-
-    <Footer />
-    <ScrollUp />
-    </>
-  );
-};
-
-const AboutPage = () => {
-  return (
-    <>
-    <Header />
-
-    About Page.
-
-    <Footer />
-    <ScrollUp />
-    </>
-  );
-};
-
-const PeakGradScheme = () => {
-  return (
-    <>
-    <Header />
-
-    Peak Grad Scheme Page.
-
-    <Footer />
-    <ScrollUp />
-    </>
-  );
-};
-
-const OnlineCourses = () => {
-  return (
-    <>
-    <Header />
-
-    OnlineCourses
-
-    <Footer />
-    <ScrollUp />
-    </>
-  );
-};
-
-const Mentors = () => {
-  return (
-    <>
-    <Header />
-
-    Mentors
-
-    <Footer />
-    <ScrollUp />
-    </>
-  );
-};
-
-const ReadingBooks = () => {
-  return (
-    <>
-    <Header />
-
-    ReadingBooks
-
-    <Footer />
-    <ScrollUp />
-    </>
-  );
-};
 
 const App = () => {
   return (
