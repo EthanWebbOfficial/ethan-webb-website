@@ -62,7 +62,7 @@ const Data = () => {
         I am a graduate data scientist, with a passion for using statistical analysis and data science
         to make a positive change in the world. <br/> <br/>
 
-        I was recently made redundant from my Graduate Scheme and I am <b>open to opportunities.</b>
+        I was recently made redundant from my Graduate Scheme at an AI company and I am <b>open to opportunities.</b>
       </p> 
 
       <a download="" href={CV} className="button button--flex">
