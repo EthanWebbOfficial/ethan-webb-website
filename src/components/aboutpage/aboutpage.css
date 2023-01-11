@@ -38,7 +38,7 @@
 
 .aboutpage__info {
     grid-template-columns: repeat(3, 140px);
-    gap: 0.5rem;
+    gap: 2rem;
     margin-bottom: var(--mb-2);
 }
 
@@ -49,6 +49,85 @@
     text-align: center;
     padding: 1rem 1.25rem;
 }
+
+.wisdom_box:hover {
+    cursor: pointer;
+    background-color: #1180AE;
+}
+
+.wisdom_box:hover .aboutpage__title{
+    color: white;
+}
+
+.wisdom_box:hover .aboutpage__icon{
+    color: white;
+}
+
+.courage_box:hover {
+    cursor: pointer;
+    background-color: #FCB239;
+}
+
+.courage_box:hover .aboutpage__title{
+    color: white;
+}
+
+.courage_box:hover .aboutpage__icon{
+    color: white;
+}
+
+.moderation_box:hover {
+    cursor: pointer;
+    background-color: #D74061;
+}
+
+.moderation_box:hover .aboutpage__title{
+    color: white;
+}
+
+.moderation_box:hover .aboutpage__icon{
+    color: white;
+}
+
+.direction_box:hover {
+    cursor: pointer;
+    background-color: #F37A29;
+}
+
+.direction_box:hover .aboutpage__title{
+    color: white;
+}
+
+.direction_box:hover .aboutpage__icon{
+    color: white;
+}
+
+.responsibility_box:hover {
+    cursor: pointer;
+    background-color: #B66BA3;
+}
+
+.responsibility_box:hover .aboutpage__title{
+    color: white;
+}
+
+.responsibility_box:hover .aboutpage__icon{
+    color: white;
+}
+
+.charisma_box:hover {
+    cursor: pointer;
+    background-color: #6d5b97;
+}
+
+.charisma_box:hover .aboutpage__title{
+    color: white;
+}
+
+.charisma_box:hover .aboutpage__icon{
+    color: white;
+}
+
 
 .aboutpage__icon {
     font-size: 1.5rem;

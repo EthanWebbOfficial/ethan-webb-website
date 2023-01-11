@@ -92,28 +92,52 @@ const AboutPage = () => {
             <h2 className="section__title">My Values</h2>
             <span className="section__subtitle">How I make decisions</span>
 
+            <div className='container'>
 
-            <div className="aboutpage__info grid">
-                <div className="aboutpage__box">
-                    <i class="bx bx-award aboutpage__icon"></i>
+                {/* First Set Begin */}
+                <div className="aboutpage__info grid">
+                    <div className="aboutpage__box wisdom_box">
+                    <i class='bx bx-brain aboutpage__icon'></i>
 
-                    <h3 className="aboutpage__title">Experience</h3>
-                    <span className="aboutpage__subtitle">6 Months</span>
+                        <h3 className="aboutpage__title">Wisdom</h3>
+                    </div>
+
+                    <div className="aboutpage__box courage_box">
+                        <i class='bx bx-check-shield aboutpage__icon'></i>
+
+                        <h3 className="aboutpage__title">Courage</h3>
+                    </div>
+
+                    <div className="aboutpage__box moderation_box">
+                    <i class='bx bxs-battery-charging aboutpage__icon'></i>
+
+                        <h3 className="aboutpage__title">Moderation</h3>
+                    </div>
                 </div>
+                {/* First Set End */}
 
-                <div className="aboutpage__box">
-                    <i class="bx bx-briefcase-alt about__icon"></i>
+                {/* Second Set Begin */}
+                <div className="aboutpage__info grid">
+                    <div className="aboutpage__box direction_box">
+                        <i class='bx bxs-binoculars aboutpage__icon'></i>
 
-                    <h3 className="aboutpage__title">Completed</h3>
-                    <span className="aboutpage__subtitle">2 Projects</span>
+                        <h3 className="aboutpage__title">Direction</h3>
+                    </div>
+
+                    <div className="aboutpage__box responsibility_box">
+                    <i class='bx bxs-leaf aboutpage__icon'></i>
+
+                        <h3 className="aboutpage__title">Leadership</h3>
+                    </div>
+
+                    <div className="aboutpage__box charisma_box">
+                    <i class='bx bx-chat aboutpage__icon'></i>
+
+                        <h3 className="aboutpage__title">Charisma</h3>
+                    </div>
                 </div>
+                {/* Second Set End */}
 
-                <div className="aboutpage__box">
-                <i class='bx bxs-graduation about__icon'></i>
-
-                    <h3 className="aboutpage__title">Education</h3>
-                    <span className="aboutpage__subtitle">Statistics MSc</span>
-                </div>
             </div>
             {/* END OF SECTION 4: My Values */}
 
