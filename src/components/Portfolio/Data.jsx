@@ -11,6 +11,7 @@ export const projectsData = [
     title: "Convolutional Neural Networks",
     subtitle: "Convolutional Neural Networks And Their Application Within Image Categorisation.",
     category: "University",
+    url: '/convolutionalneuralnetworks',
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ export const projectsData = [
     title: "Covid-19 Time Series Analysis",
     subtitle: "Analysis Of COVID-19 Daily New Deaths Of Poland and Germany.",
     category: "University",
+    url: '',
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const projectsData = [
     title: "Bird Chick Feeding - Generalised Linear Models",
     subtitle: "Modelling The Number Of Feeds For Bird Chicks.",
     category: "University",
+    url: '',
   },
   {
     id: 4,
@@ -32,13 +35,23 @@ export const projectsData = [
     title: "Smoking - Generalised Linear Models",
     subtitle: "An Analysis Of Smoking Cessation",
     category: "University",
+    url: '',
   },
   {
     id: 5,
     image: Work5,
-    title: "Web design",
-    subtitle: "Web design blah blah blah",
-    category: "Personal",
+    title: "Masters Dissertation: Modelling Epidemics",
+    subtitle: "An Investigation Into Particle Markov Chain Monte Carlo Techniques Used For Parameter Inference In Epidemic Modelling",
+    category: "University",
+    url: '',
+  },
+  {
+    id: 6,
+    image: Work5,
+    title: "Customer Work: Sales Report Automation",
+    subtitle: "Generating Outbound Sales Opportunities For A Leading Middle Eastern Manufacturing Materials Supplier",
+    category: "Professional",
+    url: '',
   },
 ];
 

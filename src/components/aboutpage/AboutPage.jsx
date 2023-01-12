@@ -4,7 +4,7 @@ import "./aboutpage.css";
 import Header from '../header/Header';
 import Footer from '../footer/Footer';
 import ScrollUp from '../scrollup/ScrollUp';
-import AboutImg from "../../assets/about.jpg";
+import AboutPageMain from "../../assets/aboutpagemain.png";
 import BCFC from "../../assets/bcfc.png";
 import RAMS from "../../assets/rams.png";
 import EthanGraduation from "../../assets/graduation.png";
@@ -25,7 +25,7 @@ const AboutPage = () => {
 
 
             <div className="aboutpage__container container grid">
-                <img src={AboutImg} alt="" className="aboutpage__img" />
+                <img src={AboutPageMain} alt="" className="aboutpage__img" />
 
                 <div className="aboutpage__data">
 

@@ -7,7 +7,7 @@ const WorkItems = ({ item }) => {
       <br /> <p className="work__tag">{item.category}</p>
       <h3 className="work__title">{item.title}</h3>
       <p className="work__subtitle">{item.subtitle}</p>
-      <a href="#" className="work__button">
+      <a href={item.url} className="work__button">
         Learn More
         <i className="bx bx-right-arrow-alt work__button-icon"></i>
       </a>

@@ -1,0 +1,50 @@
+.projectpage__section {
+    padding: 6rem 0 1rem;
+  }
+
+.projectpage__title {
+    font-size: var(--h1-font-size);
+    color: var(--title-color);
+  }
+  
+.projectpage__subtitle {
+display: block;
+font-size: var(--normal-font-size);
+margin-bottom: var(--mb-0-5);
+}
+
+.projectpage__title,
+.projectpage__subtitle {
+text-align: center;
+}
+
+.projectpage__stats{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-2);
+}
+
+.projectpage__bullet{
+    margin: 0px 10px;
+}
+
+.projectpage__icon{
+    margin: 0px 10px 0px  0px;
+}
+
+.headline__image{
+    display: flex;
+    max-width: 968px;
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+}
+
+.cnn__image{
+    background-image: url(../../assets/work1.jpg);
+}
