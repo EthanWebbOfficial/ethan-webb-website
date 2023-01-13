@@ -67,6 +67,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: var(--mb-0-5);
+    margin-bottom: var(--mb-0-5);
 }
 
 .progress__stats{

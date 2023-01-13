@@ -45,19 +45,20 @@
   display: flex;
   flex-wrap: wrap;
   font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
   margin-bottom: var(--mb-0-5);
 }
 
 .work__tag{
   margin-bottom: var(--mb-1);
-  background-color: var(--title-color);
-  color: var(--container-color);
+  background-color: var(--body-color);
+  color: var(--title-color);
   padding: 0.25rem 0.75rem;
-  font-weight: var(--font-normal);
+  font-weight: var(--font-medium);
   border-radius: 0.5rem;
   text-transform: capitalize;
   width: fit-content;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .work__subtitle {
