@@ -3,6 +3,7 @@ import "../../App.css";
 import "./onlinecourses.css";
 import Header from '../header/Header';
 import DataCampDSTrack from './DataCampDSTrack';
+import UdemySQL from './UdemySQL';
 import Footer from '../footer/Footer';
 import ScrollUp from '../scrollup/ScrollUp';
 
@@ -21,12 +22,12 @@ const OnlineCourses = () => {
               
               <span className="progress__span">
 
-                <div class="progress__container">
-                  <div class="progress__loading"></div>
+                <div class="progress__container_dsdc">
+                  <div class="progress__loading_dsdc"></div>
                 </div>
 
                 <span className="progress__stats">
-                  <p>20</p> <i class="uil uil-percentage progress__stats-icon"></i>
+                  <p>10</p> <i class="uil uil-percentage progress__stats-icon"></i>
                   <p class="progress__bullet">•</p>
                   <i class="uil uil-stopwatch progress__stats-icon"></i> <p>10 / 96 hours</p>
                 </span>
@@ -44,18 +45,20 @@ const OnlineCourses = () => {
 
               <span className="progress__span">
 
-                <div class="progress__container">
-                  <div class="progress__loading"></div>
+                <div class="progress__container_usql">
+                  <div class="progress__loading_usql"></div>
                 </div>
 
                 <span className="progress__stats">
-                  <p>20</p> <i class="uil uil-percentage progress__stats-icon"></i>
+                  <p>62</p> <i class="uil uil-percentage progress__stats-icon"></i>
                   <p class="progress__bullet">•</p>
-                  <i class="uil uil-stopwatch progress__stats-icon"></i> <p>10 / 96 hours</p>
+                  <i class="uil uil-stopwatch progress__stats-icon"></i> <p>13 / 21 hours</p>
                 </span>
               </span>
 
               <p className="course__overview"><b>Overview:</b>  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+            
+              <UdemySQL />
             </div>
       </section>
   

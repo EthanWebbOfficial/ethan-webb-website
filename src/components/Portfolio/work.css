@@ -28,6 +28,7 @@
 }
 
 .work__card {
+  max-width: 350px;
   background-color: var(--container-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
@@ -41,7 +42,6 @@
 }
 
 .work__title {
-  width: 295px;
   display: flex;
   flex-wrap: wrap;
   font-size: var(--normal-font-size);
@@ -62,7 +62,6 @@
 }
 
 .work__subtitle {
-  width: 295px;
   display: flex;
   flex-wrap: wrap;
   font-size: var(--normal-font-size);

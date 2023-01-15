@@ -22,7 +22,9 @@
     text-align: left;
 }
 
-.progress__container {
+/* Progress Data Camp DS Track */
+
+.progress__container_dsdc {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -34,7 +36,7 @@
     background: var(--body-color);
 }
 
-.progress__loading {
+.progress__loading_dsdc {
     /* position: relative;
     display: inline-block; */
     display: flex;
@@ -47,7 +49,7 @@
     overflow: hidden;
 }
 
-.progress__loading:after {
+.progress__loading_dsdc:after {
     content: '';
     /* position: absolute; */
     position: relative;
@@ -55,7 +57,50 @@
     align-items: flex-start;
     justify-content: flex-start;
     left: 0;
-    width: 20%;
+    width: 10%;
+    height: 100%;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: load 5s infinite;
+    background: #8AC926;
+}
+
+/* Progress Data Camp Udenmy SQL */
+
+.progress__container_usql {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* position: relative; */
+    width: 30%;
+    padding: 10px 0px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: var(--body-color);
+}
+
+.progress__loading_usql {
+    /* position: relative;
+    display: inline-block; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5px;
+    background: var(--body-color);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress__loading_usql:after {
+    content: '';
+    /* position: absolute; */
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    left: 0;
+    width: 62%;
     height: 100%;
     border-radius: 4px;
     box-shadow: 0 0 5px rgba(0, 0, 0, .2);
@@ -114,6 +159,7 @@
 .course__img {
     width: 40px;
     border-radius: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .course__name {
@@ -143,7 +189,7 @@
     background-color: #8AC926;
     padding: 5px 20px;
     text-transform: capitalize;
-    color: var(--title-color-dark);
+    color: var(--title-color);
     font-weight: var(--font-medium);
 }
 
@@ -156,9 +202,10 @@
 }
 
 .not-started{
-    background-color: #FF595E;
+    /* #FF595E */
+    background-color: #ffe599;
     padding: 5px 20px;
     text-transform: capitalize;
-    color: var(--body-color);
+    color: var(--title-color);
     font-weight: var(--font-medium);
 }
