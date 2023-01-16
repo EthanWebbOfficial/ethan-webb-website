@@ -1,5 +1,8 @@
 .projectpage__section {
     padding: 6rem 0 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
 
 .projectpage__title {
@@ -37,14 +40,46 @@ text-align: center;
 
 .headline__image{
     display: flex;
-    max-width: 968px;
-    min-height: 300px;
+    /* max-width: 640px; */
+    max-height: 420px;
+    width: 100%;
+    min-height: 420px;
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: center;
+    margin-bottom: var(--mb-1);
+}
+
+.project__textblock{
+    margin-bottom: var(--mb-1-5);
+    text-align: left;
+}
+
+.ReactMarkdown{
+    margin-bottom: var(--mb-1-5);
+    text-align: left;
+    width: 100%;
 }
 
 .cnn__image{
     background-image: url(../../assets/work1.jpg);
 }
+
+/*=============== BREAKPOINTS ===============*/
+  
+  /* For medium devices */
+  @media screen and (max-width: 576px) {
+    .headline__image{
+        min-height: 300px;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .headline__image{
+        min-height: 120px;
+    }
+  }
+
+
