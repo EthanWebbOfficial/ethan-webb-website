@@ -16,7 +16,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            [Insert Work Description Here.]
+          I am a Junior Data Scientist with a proven track record of successfully implementing customer solutions. After earning my Masters in Statistics at Lancaster University, I started working for a leading AI SaaS company in one of the UK's largest Data Science teams. With the support of my experienced colleagues, I have been able to quickly advance my skills while delivering data science solutions to key stakeholders. 
           </p>
 
           <a href='/about' className="button button--flex">
