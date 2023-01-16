@@ -59,7 +59,7 @@ const Testimonials = () => {
               </div>
 
               <p className="testimonial__description">{description}</p>
-              <a download={letter_rec} className="testimonial__button">
+              <a download="" href={letter_rec} className="testimonial__button">
               Download Full Reference
               <i className="uil uil-arrow-right testimonial__button-icon"></i>
           </a>

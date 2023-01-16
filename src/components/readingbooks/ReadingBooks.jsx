@@ -52,7 +52,7 @@ const ReadingBooks = () => {
 
             <div className="container__readingbooks__content">
               <p className='readingbooks__intro'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              My goal is to grow both as a person and as a data scientist. To help achieve this, I incorporate reading into my daily routine. By reading a diverse selection of non-fiction books, I aim broaden my perspectives and test my pre-existing beliefs. Since the start of 2020, I have read over 65 books and plan to read an additional 25 this year. To solidify my understanding, I document my Kindle highlights and notes in a "Second Brain," where I review and tag key concepts for future reference. This method creates a searchable database of ideas that I can apply to my decision making and work processes. To make this possible I wrote a python script to extract my highlights and organize them as I desired, and in the future, I hope to use NLP to assist me with tagging. You can see the books on my book shelf below, sorted by category.
               </p>
             </div>
 

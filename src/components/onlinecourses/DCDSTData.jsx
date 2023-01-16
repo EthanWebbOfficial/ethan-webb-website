@@ -28,7 +28,7 @@ export const DCDSTData  = [
   {
     id: 4,
     image: DC,
-    title: "4. Data Manipulation with pandas",
+    title: "4. Data Manipulation with pandas (4hrs)",
     description:
       "''This course chapter includes: Transforming DataFrames, Aggregating DataFrames, Slicing and Indexing DataFrames, and Creating and Visualizing DataFrames.''",
       progress: 'in-progress',

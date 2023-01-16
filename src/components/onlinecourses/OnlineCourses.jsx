@@ -33,7 +33,11 @@ const OnlineCourses = () => {
                 </span>
               </span>
 
-              <p className="course__overview"><b>Overview:</b>  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+              <p className="course__overview">
+                <b>Overview: </b>  
+                As someone with a background in Statistics, my primary coding experience is in R. However, in order to expand my skills and gain a deeper understanding of Machine Learning techniques, I began the Python for Data Science career track. To solidify my learning, I use the Anki Flashcard app to create revision cards which I study during my commute. Through a combination of daily work and consistent study, I have established a strong foundation in Python that I will continue to build upon in the future.
+              You can scroll through the courses below to see my progess and what I have learnt.
+              </p>
             
               <DataCampDSTrack />
             </div>
@@ -56,7 +60,7 @@ const OnlineCourses = () => {
                 </span>
               </span>
 
-              <p className="course__overview"><b>Overview:</b>  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+              <p className="course__overview"><b>Overview:</b>  To improve my proficiency in SQL, which I use regularly in my job, I enrolled in the Ultimate MySQL Bootcamp on Udemy. This course has helped me to quickly grasp the basics of SQL and has enhanced the efficiency of my work. You can scroll through the courses below to see my progess and what I have learnt.</p>
             
               <UdemySQL />
             </div>
