@@ -20,7 +20,7 @@ export const projectsData = [
     title: "Covid-19 Time Series Analysis",
     subtitle: "Analysis Of COVID-19 Daily New Deaths Of Poland and Germany.",
     category: "University",
-    url: '',
+    url: '/covidtimeseriesanalysis',
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ export const projectsData = [
     title: "Bird Chick Feeding - Generalised Linear Models",
     subtitle: "Modelling The Number Of Feeds For Bird Chicks.",
     category: "University",
-    url: '',
+    url: '/birdchickfeeding_glms',
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ export const projectsData = [
     title: "Smoking - Generalised Linear Models",
     subtitle: "An Analysis Of Smoking Cessation",
     category: "University",
-    url: '',
+    url: '/smoking_glms',
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ export const projectsData = [
     title: "Masters Dissertation: Modelling Epidemics",
     subtitle: "An Investigation Into Particle Markov Chain Monte Carlo Techniques Used For Parameter Inference In Epidemic Modelling",
     category: "University",
-    url: '',
+    url: '/masters_dissertation_modelling_epidemics',
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ export const projectsData = [
     title: "Customer Work: Sales Report Automation",
     subtitle: "Generating Outbound Sales Opportunities For A Leading Middle Eastern Manufacturing Materials Supplier",
     category: "Professional",
-    url: '',
+    url: '/sales_report_automation',
   },
 ];
 

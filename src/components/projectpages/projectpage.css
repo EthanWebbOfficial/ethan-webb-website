@@ -57,13 +57,42 @@ text-align: center;
 }
 
 .ReactMarkdown{
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: var(--mb-0-5);
     text-align: left;
     width: 100%;
 }
 
+.padding__bottom{
+    margin-bottom: var(--mb-0-5);
+    text-align: left;
+}
+
+.figurecaption{
+    margin-bottom: var(--mb-0-5);
+}
+
 .cnn__image{
     background-image: url(../../assets/work1.jpg);
+}
+
+.bird__image{
+    background-image: url(../../assets/work3.jpg);
+}
+
+.smoking__image{
+    background-image: url(../../assets/work4.jpg);
+}
+
+.covid__image{
+    background-image: url(../../assets/work2.jpg);
+}
+
+.epidemic__image{
+    background-image: url(../../assets/work6.jpg);
+}
+
+.manu__image{
+    background-image: url(../../assets/work5.jpg);
 }
 
 /*=============== BREAKPOINTS ===============*/

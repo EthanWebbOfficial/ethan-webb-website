@@ -12,7 +12,7 @@ import rehypeKatex from 'rehype-katex'
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
 
 
-const ConvolutionalNeuralNetworks = () => {
+const BirdChickFeeding = () => {
     return (
       <>
       <Header />
@@ -20,7 +20,7 @@ const ConvolutionalNeuralNetworks = () => {
         <div className='container'>
 
             <section className="projectpage__section">
-                    <h2 className="projectpage__title">Convolutional Neural Networks</h2>
+                    <h2 className="projectpage__title">Bird Chick Feeding - Generalised Linear Models</h2>
                     <span className="projectpage__subtitle">This is the subtitle of the article.</span>
                     <span className="projectpage__stats">
 
@@ -37,7 +37,7 @@ const ConvolutionalNeuralNetworks = () => {
 
                     </span>
 
-                    <div className='headline__image cnn__image'></div>
+                    <div className='headline__image bird__image'></div>
 
                     <p className='project__textblock'><b>Context:</b> Part of my Statistical Learning Module, I was placed in a group of 4 challenged with writing a report (and delivering a presentation at a class conference) based on Convolution Neural Networks. Prior to this assignment I had not gained much exposure to CNNs and enjoyed the process of learning something new from first principles. Our report covered a mathematical outline of convolution, the components of a Convolution Layer and the structure of a CNN. I was delighted to receive the <mark className="highlight"><b>Best Presentation Award</b></mark>, chosen by industry representatives from SkyBet Gaming out of the 28 groups that participated in the class conference. Our report is still being graded and will be added below in due course.</p>
 
@@ -59,4 +59,4 @@ const ConvolutionalNeuralNetworks = () => {
   };
 
 
-export default ConvolutionalNeuralNetworks
+export default BirdChickFeeding
