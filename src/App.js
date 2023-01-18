@@ -21,18 +21,18 @@ const App = () => {
       <Routes>
           <Route exact path='/' element={<MainPage />} />
           <Route exact path='/aboutpage' element={<AboutPage />} />
-          <Route exact path='https://mrethanwebb.com/peakgradscheme/' element={<PeakGradScheme />} />
-          <Route path='/onlinecourses' element={<OnlineCourses  />} />
-          <Route path='/mentors' element={<Mentors />} />
-          <Route path='/readingbooks' element={<ReadingBooks />} />
+          <Route exact path='/peakgradscheme' element={<PeakGradScheme />} />
+          <Route exact path='/onlinecourses' element={<OnlineCourses  />} />
+          <Route exact path='/mentors' element={<Mentors />} />
+          <Route exact path='/readingbooks' element={<ReadingBooks />} />
 
           {/* Projects  */}
-          <Route path='/convolutionalneuralnetworks' element={<ConvolutionalNeuralNetworks />} />
-          <Route path='/covidtimeseriesanalysis' element={<CovidTimeSeries />} />
-          <Route path='/birdchickfeeding_glms' element={<BirdChickFeedingGLM />} />
-          <Route path='/smoking_glms' element={<SmokingGLM />} />
-          <Route path='/masters_dissertation_modelling_epidemics' element={<MastersDissertation />} />
-          <Route path='/sales_report_automation' element={<CustomerWorkSalesReportAutomation />} />
+          <Route exact path='/convolutionalneuralnetworks' element={<ConvolutionalNeuralNetworks />} />
+          <Route exact path='/covidtimeseriesanalysis' element={<CovidTimeSeries />} />
+          <Route exact path='/birdchickfeeding_glms' element={<BirdChickFeedingGLM />} />
+          <Route exact path='/smoking_glms' element={<SmokingGLM />} />
+          <Route exact path='/masters_dissertation_modelling_epidemics' element={<MastersDissertation />} />
+          <Route exact path='/sales_report_automation' element={<CustomerWorkSalesReportAutomation />} />
       </Routes>
     </Router>
     </ div>
