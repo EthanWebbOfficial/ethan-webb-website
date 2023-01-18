@@ -21,7 +21,7 @@ const App = () => {
       <Routes>
           <Route exact path='/' element={<MainPage />} />
           <Route exact path='/aboutpage' element={<AboutPage />} />
-          <Route exact path='peakgradscheme/' element={<PeakGradScheme />} />
+          <Route exact path='https://mrethanwebb.com/peakgradscheme/' element={<PeakGradScheme />} />
           <Route path='/onlinecourses' element={<OnlineCourses  />} />
           <Route path='/mentors' element={<Mentors />} />
           <Route path='/readingbooks' element={<ReadingBooks />} />
