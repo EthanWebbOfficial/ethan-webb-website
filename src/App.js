@@ -20,8 +20,8 @@ const App = () => {
     <Router>
       <Routes>
           <Route exact path='/' element={<MainPage />} />
-          <Route path='/about' element={<AboutPage />} />
-          <Route path='https://mrethanwebb.com/peakgradscheme/peakgradscheme' element={<PeakGradScheme />} />
+          <Route exact path='/aboutpage' element={<AboutPage />} />
+          <Route exact path='peakgradscheme/' element={<PeakGradScheme />} />
           <Route path='/onlinecourses' element={<OnlineCourses  />} />
           <Route path='/mentors' element={<Mentors />} />
           <Route path='/readingbooks' element={<ReadingBooks />} />
