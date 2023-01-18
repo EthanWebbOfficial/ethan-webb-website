@@ -57,7 +57,7 @@ text-align: center;
 }
 
 .ReactMarkdown{
-    margin-bottom: var(--mb-0-5);
+    margin-bottom: var(--mb-1-5);
     text-align: left;
     width: 100%;
 }
