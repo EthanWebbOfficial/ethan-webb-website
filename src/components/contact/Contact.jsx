@@ -42,8 +42,9 @@ const Contact = () => {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">webb_ethan@aol.com</span>
 
+              {/* mailto: webb_ethan@aol.com */}
               <a
-                href="mailto: webb_ethan@aol.com"
+                href="https://www.linkedin.com/in/ethan-webb10/"
                 className="contact__button"
               >
                 Reach Out{" "}
