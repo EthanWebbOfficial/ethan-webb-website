@@ -21,12 +21,12 @@ const App = () => {
       <Routes>
           <Route exact path='/' element={<MainPage />} />
           <Route path='/about' element={<AboutPage />} />
-          <Route path='/peakgradscheme' element={<PeakGradScheme />} />
+          <Route path='https://mrethanwebb.com/peakgradscheme/peakgradscheme' element={<PeakGradScheme />} />
           <Route path='/onlinecourses' element={<OnlineCourses  />} />
           <Route path='/mentors' element={<Mentors />} />
           <Route path='/readingbooks' element={<ReadingBooks />} />
 
-          {/* To  */}
+          {/* Projects  */}
           <Route path='/convolutionalneuralnetworks' element={<ConvolutionalNeuralNetworks />} />
           <Route path='/covidtimeseriesanalysis' element={<CovidTimeSeries />} />
           <Route path='/birdchickfeeding_glms' element={<BirdChickFeedingGLM />} />
