@@ -72,6 +72,7 @@
 
 html {
   scroll-behavior: smooth;
+  zoom: 75%;
 }
 
 body,
