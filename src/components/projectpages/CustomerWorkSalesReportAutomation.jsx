@@ -5,9 +5,6 @@ import Footer from '../footer/Footer';
 import ScrollUp from '../scrollup/ScrollUp';
 import "./projectpage.css"
 
-import ReactMarkdown from 'react-markdown'
-import remarkMath from 'remark-math'
-import rehypeKatex from 'rehype-katex'
 
 import 'katex/dist/katex.min.css' // `rehype-katex` does not import the CSS for you
 

@@ -43,7 +43,7 @@ Application Within Image Categorisation
 
                     <div className='headline__image cnn__image'></div>
 
-                    <p className='project__textblock'><b>Context:</b> Part of my Statistical Learning Module, I was placed in a group of 4 challenged with writing a report (and delivering a presentation at a class conference) based on Convolution Neural Networks. Prior to this assignment I had not gained much exposure to CNNs and enjoyed the process of learning something new from first principles. Our report covered a mathematical outline of convolution, the components of a Convolution Layer and the structure of a CNN. I was delighted to receive the <mark className="highlight"><b>Best Presentation Award</b></mark>, chosen by industry representatives from SkyBet Gaming out of the 28 groups that participated in the class conference. Our report is still being graded and will be added below in due course.</p>
+                    <p className='project__textblock'><b>Context:</b> Part of my Statistical Learning Module, I was placed in a group of 4 challenged with writing a report (and delivering a presentation at a class conference) based on Convolution Neural Networks. Prior to this assignment I had not gained much exposure to CNNs and enjoyed the process of learning something new from first principles. Our report covered a mathematical outline of convolution, the components of a Convolution Layer and the structure of a CNN. I was delighted to receive the <mark className="highlight"><b>Best Presentation Award</b></mark>, chosen by industry representatives from SkyBet Gaming out of the 28 groups that participated in the class conference.</p>
 
                     <ReactMarkdown 
 className='ReactMarkdown'
@@ -54,7 +54,7 @@ rehypePlugins={[rehypeKatex]}
 
 <ReactMarkdown 
 className='ReactMarkdown'
-children={`In this report we describe the motivation behind Convolutional Neural Networks (CNN) and proceed to explain the Mathematical detail behind the operations used in a CNN. We set out the benefits of using convolution within a Neural Network including sparse interactions, parameter sharing and equivariance. We then apply the CNN framework in $\\mathrm{R}$ using the keras package to a data set containing images of clothing items; t-shirt, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag and ankle boot. We define a classification problem and achieve $93 \%$ accuracy on training data and $92 \%$ accuracy on test data. We conclude by giving examples of alternate Networks and other Machine Learning algorithms which can be run on various types of data.`}
+children={`In this report we describe the motivation behind Convolutional Neural Networks (CNN) and proceed to explain the Mathematical detail behind the operations used in a CNN. We set out the benefits of using convolution within a Neural Network including sparse interactions, parameter sharing and equivariance. We then apply the CNN framework in $\\mathrm{R}$ using the keras package to a data set containing images of clothing items; t-shirt, trouser, pullover, dress, coat, sandal, shirt, sneaker, bag and ankle boot. We define a classification problem and achieve $93 \\%$ accuracy on training data and $92 \\%$ accuracy on test data. We conclude by giving examples of alternate Networks and other Machine Learning algorithms which can be run on various types of data.`}
 remarkPlugins={[remarkMath]}
 rehypePlugins={[rehypeKatex]}
 />

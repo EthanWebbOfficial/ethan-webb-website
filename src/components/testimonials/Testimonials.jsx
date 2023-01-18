@@ -46,7 +46,6 @@ const Testimonials = () => {
               <a
                 href={linkedin_url}
                 className="testimonial__social-link"
-                target="_blank"
               >
                 <i class='bx bxl-linkedin'></i>
               </a>
