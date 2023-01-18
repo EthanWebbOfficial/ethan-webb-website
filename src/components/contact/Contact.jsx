@@ -42,9 +42,9 @@ const Contact = () => {
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">webb_ethan@aol.com</span>
 
-              {/* mailto: webb_ethan@aol.com */}
+              {/* */}
               <a
-                href="https://www.linkedin.com/in/ethan-webb10/"
+                href="mailto: webb_ethan@aol.com "
                 className="contact__button"
               >
                 Reach Out{" "}
@@ -74,10 +74,10 @@ const Contact = () => {
               <h3 className="contact__card-title">Are You A Recruiter?</h3>
               <span className="contact__card-data">Request a recruiter support pack.</span>
 
-              <a className="contact__button" onClick={() => toggleTab(1)}>
+              <button className="contact__button__recruiter" onClick={() => toggleTab(1)}>
                 Reach Out{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
+              </button>
 
                 {/* Added Content In Here */}
                   <div

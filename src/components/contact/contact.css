@@ -46,6 +46,16 @@
     margin-bottom: var(--mb-0-75);
 }
 
+.contact__button__recruiter{
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
 .contact__button {
     color: var(--text-color);
     font-size: var(--small-font-size);
@@ -53,6 +63,14 @@
     align-items: center;
     justify-content: center;
     column-gap: 0.25rem;
+}
+
+.contact__button__recruiter:hover{
+    cursor: pointer;
+}
+
+.contact__button__recruiter:hover .contact__button-icon {
+    transform: translate(0.25rem);
 }
 
 .contact__button-icon {
