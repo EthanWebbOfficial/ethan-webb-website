@@ -59,7 +59,7 @@ const Data = () => {
       <h3 className="home__subtitle">Data Scientist</h3>
 
       <p className="home__description">
-        I am a graduate data scientist, with a passion for using statistical analysis and data science
+        I am a data scientist, with a passion for using statistical analysis and data science
         to make a <mark className="highlight"><b>positive change in the world.</b></mark> <br/> <br/>
       </p> 
 
